@@ -11,7 +11,7 @@
         based on the recommendations of the Application Developer's Guide.
     </description>
 
-    <servlet>
+	 <servlet>
         <servlet-name>FirstServlet</servlet-name>
         <servlet-class>com.example.servlets.FirstServlet</servlet-class>
     </servlet>		
@@ -20,6 +20,18 @@
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/firstservlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.example.servlets.RegisterServlet</servlet-class>
+    </servlet>		
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/registerservlet</url-pattern>
+    </servlet-mapping>
+    
+    
      
      
   
